@@ -1,4 +1,4 @@
-FROM golang:1.23.0-alpine3.19
+FROM golang:1.25.0-alpine3.22
 
 RUN apk --no-cache add bash git git-lfs &&\
     go install mvdan.cc/gofumpt@latest
